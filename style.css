@@ -19,18 +19,40 @@
 body {
   font-size: 1.6rem;
   font-family: "Oswald", sans-serif;
-  /* color: var(--white); */
-  color: black;
+  color: var(--white);
 }
 
 /* section{
     margin: 2em 0;
 } */
 
+.p-2{
+  padding: 4em 0;
+}
+
+.btn{
+  padding: 0.75em 2em;
+  text-decoration: none;
+  background: var(--color-4);
+  border-radius: 100px;
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 2.4rem;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
 footer{
   background: var(--color-2);
   color: var(--white);
 }
+strong{
+  color: var(--color-4);
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -45,7 +67,26 @@ footer{
   background: var(--color-2);
 }
 
+.intro p{
+  margin: 2em 0;
+  font-size: 2.4rem;
+}
+
+.intro h1{
+  font-size: 9rem;
+  line-height: 1.1em;
+}
+
 .testimonial {
+  padding: 3em 0;
   background: var(--color-5);
   color: black;
+}
+
+
+@media (min-width: 1000px){
+  /* .test{
+    display: flex;
+    gap: 1em;
+  } */
 }
