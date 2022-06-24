@@ -19,13 +19,18 @@
 body {
   font-size: 1.6rem;
   font-family: "Oswald", sans-serif;
-  color: var(--white);
+  /* color: var(--white); */
+  color: black;
 }
 
 /* section{
     margin: 2em 0;
 } */
 
+footer{
+  background: var(--color-2);
+  color: var(--white);
+}
 .container {
   width: 80%;
   margin: 0 auto;
