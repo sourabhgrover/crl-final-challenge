@@ -22,9 +22,9 @@ body {
   color: var(--white);
 }
 
-/* section{
-    margin: 2em 0;
-} */
+img{
+  max-width: 100%;
+}
 
 .p-2{
   padding: 4em 0;
@@ -49,6 +49,7 @@ footer{
   background: var(--color-2);
   color: var(--white);
 }
+
 strong{
   color: var(--color-4);
 }
@@ -81,6 +82,38 @@ strong{
   padding: 3em 0;
   background: var(--color-5);
   color: black;
+}
+
+.testimonial h3{
+  color: var(--color-4);
+  font-size: 3rem;
+}
+
+.testimonial p{
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0.2em;
+}
+
+.article{
+  margin-bottom: 1em;
+}
+
+
+.section-2{
+  margin-top: 3em;
+}
+
+.section-2 p{
+  color: black;
+  font-size: 2.1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1em 0;
+}
+
+.section-2 h2{
+  font-size: 3.6rem;
+  color: var(--color-4);
 }
 
 
