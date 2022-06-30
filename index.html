@@ -3,26 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CRL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <title>CRL</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+      </button>
+      <a href="#" alt="Logo">
         <img src="./imgs/logo.svg" alt="logo">
-        <div>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Sign In</li>
-            <li>Sign Up</li>
-          </ul>
-        </div>
+      </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+        <ul class="nav__list nav__list--secondary">
+            <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link--button">Sign up</a></li>
+        </ul>
+        </nav>
       </div>
     </header>
     <section class="intro">
@@ -135,6 +142,6 @@
         </div>
       </div>
     </footer>
-    
+    <script src="main.js"></script>    
   </body>
 </html>
