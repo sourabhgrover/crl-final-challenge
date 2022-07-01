@@ -150,6 +150,7 @@ header {
 .intro p{
   margin: 2em 0;
   font-size: 2.4rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .intro h1{
@@ -270,11 +271,8 @@ footer h1{
   font-weight: bold;
 } */
 
-@media (min-width: 800px){
-  /* .test{
-    display: flex;
-    gap: 1em;
-  } */
+@media (min-width: 700px){
+  
   .nav-toggle {
     display: none;
   }
@@ -296,6 +294,10 @@ footer h1{
     margin: 0;
   }
 
+  .nav__item + .nav__item{
+    margin-left: 1em;
+  }
+
   .nav__list--primary{
     margin: 0 auto;
   }
@@ -303,4 +305,13 @@ footer h1{
   .row{
     display: flex;
   }
+
+  .aside{
+    align-self: flex-end;
+  }
+
+  .gap-alternate + .gap-alternate{
+    margin-left: 2em;
+  }
+
 }
