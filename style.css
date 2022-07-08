@@ -318,5 +318,9 @@ footer h1{
   .gap-alternate + .gap-alternate{
     margin-left: 2em;
   }
-
+  
+  .card-outer-container{
+    display: flex;
+    gap : 1em;
+  }
 }
