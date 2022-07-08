@@ -271,7 +271,7 @@ footer h1{
   font-weight: bold;
 } */
 
-@media (min-width: 700px){
+@media (min-width: 800px){
   
   .nav-toggle {
     display: none;
@@ -304,6 +304,11 @@ footer h1{
 
   .row{
     display: flex;
+  }
+
+  .testimonial-container{
+    display: flex;
+    gap: 1em;
   }
 
   .aside{
