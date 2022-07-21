@@ -251,6 +251,14 @@ footer h1{
   font-family: 'Montserrat', sans-serif;
 }
 
+.footer-info ul li{
+  margin-top: 0.5em;
+}
+
+.footer-info__about p {
+  margin-top: 0.5em;
+}
+
 .footer-info a:hover,
 .footer-info a:focus{
   opacity: 0.75;
@@ -322,6 +330,18 @@ footer h1{
   .card-outer-container{
     display: flex;
     gap : 1em;
+  }
+
+  .footer-info{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-info div{
+    text-align: start;
+  }
+
+  .footer-info__about{
+    flex-basis: 40%;
   }
 }
 
