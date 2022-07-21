@@ -7,3 +7,9 @@ Course Name:  [Conquering Responsive Layouts](https://courses.kevinpowell.co/vie
 From this repo you can take help to complete your final challenge.
 
 Also please raise the Pull Request or Issue if you find some issue.
+
+##  Screenshot of Small Screen Size
+![Small Screen Size](./screenshots/CRL-Small-Screen.png)
+##  Screenshot of Medium Screen Size
+
+##  Screenshot of Large Screen Size
