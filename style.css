@@ -324,3 +324,16 @@ footer h1{
     gap : 1em;
   }
 }
+
+
+@media (min-width: 1200px){
+  .section-2__container{
+    display: flex;
+    gap: 3em;
+  }
+  .card-outer-container{
+    display: flex;
+    flex-direction : column;
+    width: 100%;
+  }
+}
