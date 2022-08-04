@@ -14,3 +14,11 @@ Also please raise the Pull Request or Issue if you find some issue.
 ![Medium Screen Size](./screenshots/CRL-Medium-Screen.png)
 
 ##  Screenshot of Large Screen Size
+![Large Screen Size](./screenshots/CRL-Large-Screen.png)
+
+
+You can follow Kevin Powell for more such creative content on CSS:
+
+[Youtube](https://www.youtube.com/kepowob)
+
+[Twitter](https://twitter.com/KevinJPowell)
